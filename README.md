@@ -8,16 +8,16 @@ What it can do:
 4. Allow replying (future release)
 
 ## Commands:
-[ESC] -- exit chat mode (to normal mode)  
-t -- to type (chat mode)  
-aa {path} -- send an attachment from a file (future release)  
-ac {path} -- send an attachment from a file (with caption) (future release ofc)  
+`[ESC]` -- exit chat mode (to normal mode)  
+`t` -- to type (chat mode)  
+`aa {path}` -- send an attachment from a file (future release)  
+`ac {path}` -- send an attachment from a file (with caption) (future release ofc)  
   
-k -- hightlight chat above  
-j -- hightlight chat below  
+`k` -- hightlight chat above  
+`j` -- hightlight chat below  
   
-:e -- end chat (quit from a group)  
+`:e` -- end chat (quit from a group)  
   
 ### on hightligting
-r -- reply to a chat (future release)  
-d {path} -- download attachment to disk (future release)
+`r` -- reply to a chat (future release)  
+`d` {path} -- download attachment to disk (future release)
