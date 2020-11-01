@@ -8,7 +8,7 @@ What it can do:
 4. Allow replying (future release)
 
 ## Commands:
-ESC -- exit chat mode (to normal mode)  
+[ESC] -- exit chat mode (to normal mode)  
 t -- to type (chat mode)  
 aa {path} -- send an attachment from a file (future release)  
 ac {path} -- send an attachment from a file (with caption) (future release ofc)  
