@@ -20,4 +20,4 @@ What it can do:
   
 ### on hightligting
 `r` -- reply to a chat (future release)  
-`d` {path} -- download attachment to disk (future release)
+`d {path}` -- download attachment to disk (future release)
