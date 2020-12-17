@@ -1,5 +1,5 @@
-# vimcursespp
-Instant messaging app with vim style using ncurses and ASIO(probably)
+# vimcurses
+Instant messaging app with vim style using ncurses and ASIO
 
 What it can do:
 1. 1v1 chat
