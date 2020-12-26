@@ -3,9 +3,8 @@ Instant messaging app with vim style using ncurses and ASIO
 
 What it can do:
 1. 1v1 chat
-2. Join/host a group chat
-3. Send attachments (future release)
-4. Allow replying (future release)
+2. Send attachments (future release)
+3. Allow replying (future release)
 
 ## Commands:
 `[ESC]` -- exit chat mode (to normal mode)  
@@ -14,7 +13,7 @@ What it can do:
 `k` -- hightlight chat above  
 `j` -- hightlight chat below  
   
-`:e` -- end chat (quit from a group)
+`:e` -- end chat
 `:aa {path}` -- send an attachment from a file (future release)  
 `:ac {path} {caption}` -- send an attachment from a file (with caption) (future release ofc)  
   
