@@ -10,13 +10,13 @@ What it can do:
 ## Commands:
 `[ESC]` -- exit chat mode (to normal mode)  
 `t` -- to type (chat mode)  
-`aa {path}` -- send an attachment from a file (future release)  
-`ac {path}` -- send an attachment from a file (with caption) (future release ofc)  
   
 `k` -- hightlight chat above  
 `j` -- hightlight chat below  
   
-`:e` -- end chat (quit from a group)  
+`:e` -- end chat (quit from a group)
+`:aa {path}` -- send an attachment from a file (future release)  
+`:ac {path} {caption}` -- send an attachment from a file (with caption) (future release ofc)  
   
 ### on hightligting
 `r` -- reply to a chat (future release)  
