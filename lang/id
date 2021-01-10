@@ -1,0 +1,19 @@
+# WELCOME MESSAGE
+welcome_message="Selamat menggunakan %s!\nVersi %s\nDibuat oleh %s\n\nKetik ':h {nama}'<Enter> untuk menyelenggarakan obrolan\nKetik ':c {ip} {nama}' <Enter> untuk mengobrol\nAkhiri obrolan dengan mengetik ':e'
+
+# HOST WAITING_CLIENT
+hinf_waiting_client="Menunggu seseorang untuk masuk ke dalam obrolan..."
+hinf_connected="Lawan bicara terhubung! Katakan salam kepada %s!"
+
+# CLIENT WAITING_HOST
+cinf_waiting_host="Mencoba menghubungi penyelenggara obrolan..."
+cinf_connected="Terhubung ke penyelenggara obrolan! katakan salam kepada %s!"
+
+# CHAT ENDED
+gerr_endchat="Yah! Obrolan telah berakhir."
+
+# CHAT STATUS
+binf_istyping="%s sedang mengetik..."
+berr_chatend="%s telah meninggalkan percakapan."
+binf_sattch="%s mengirim lampiran.\nHanya buka atau unduh lampiran dari orang yang kamu percaya."
+

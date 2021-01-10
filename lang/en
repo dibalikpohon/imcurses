@@ -1,0 +1,19 @@
+# WELCOME MESSAGE
+welcome_message="Welcome to %s!\nVersion %s\nMade by %s\n\nType ':h {name}'<Enter> to host a chat\nType ':c {ip} {name}' <Enter> to chat\nEnd the chat with ':e'
+
+# HOST WAITING_CLIENT
+hinf_waiting_client="Waiting for a person to enter the chat..."
+hinf_connected="Connected to a person! Say hi to %s!"
+
+# CLIENT WAITING_HOST
+cinf_waiting_host="Trying to connect to a host..."
+cinf_connected="Connected to a host! Say hi to %s!"
+
+# CHAT ENDED
+gerr_endchat="Alas! The chat has ended."
+
+# CHAT STATUS
+binf_istyping="%s is typing..."
+berr_chatend="%s has left the chat."
+binf_sattch="%s sent an attachmeny.\nOnly open or download the attachment from the person you trust."
+
