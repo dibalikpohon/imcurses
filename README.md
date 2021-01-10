@@ -9,7 +9,7 @@ What it can do:
 
 ## Commands:
 ### First thing to do:
-`h` -- host a chat  
+`:h` -- host a chat  
 `:c <ip>` -- (join a chat) connect to a user  
 `:e` -- end chat  
 
