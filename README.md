@@ -9,8 +9,8 @@ What it can do:
 
 ## Commands:
 ### First thing to do:
-`:h` -- host a chat  
-`:c <ip>` -- (join a chat) connect to a user  
+`:h {name}` -- host a chat (enter host's name)
+`:c {ip} {name}` -- chat with someone (enter client's name)  
 `:e` -- end chat  
 
 ### In a chat:
