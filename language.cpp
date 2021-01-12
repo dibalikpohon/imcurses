@@ -20,7 +20,9 @@ language::language(const char* language_code)
     while (!language_file.eof()) {
         memset(lines, 0, 256);
         language_file.getline(lines, 256);
+
         if (lines[0] == '#') continue; // skip comment
+        if (language_file.gcount() <= 1) continue; // skip line or skip nothing
         
         /* start to tokenize */
         // find the equal('=') sign
@@ -30,9 +32,9 @@ language::language(const char* language_code)
         char* quote1 = std::find(lines, lines + 256, '\"');
         
         // find the second quote
-        char* quote2 = std::find(quote1, quote1 + (lines - quote1), '\"');
+        char* quote2 = std::find(quote1 + 1, lines + 256, '\"');
         
-        // get the key        
+        // get the keys
         std::string key(lines, equal_sign);
 
         // get the value
