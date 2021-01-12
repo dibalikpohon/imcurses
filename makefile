@@ -9,3 +9,6 @@ language: language.cpp language.hpp
 
 main: main.cpp
 	$(COMPILER_CXX) -g -c main.cpp -o main.o
+
+clean:
+	rm language.o main.o vimcurses
