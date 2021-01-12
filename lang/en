@@ -1,5 +1,5 @@
 # WELCOME MESSAGE
-welcome_message="Welcome to %s!\nVersion %s\nMade by %s\n\nType ':h {name}'<Enter> to host a chat\nType ':c {ip} {name}' <Enter> to chat\nEnd the chat with ':e'
+welcome_message="Welcome to %s!\nVersion %s\nMade by %s\n\nType ':h {name}'<Enter> to host a chat\nType ':c {ip} {name}' <Enter> to chat\nEnd the chat with ':e'"
 
 # HOST WAITING_CLIENT
 hinf_waiting_client="Waiting for a person to enter the chat..."
@@ -16,4 +16,3 @@ gerr_endchat="Alas! The chat has ended."
 binf_istyping="%s is typing..."
 berr_chatend="%s has left the chat."
 binf_sattch="%s sent an attachmeny.\nOnly open or download the attachment from the person you trust."
-

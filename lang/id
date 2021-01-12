@@ -1,5 +1,5 @@
 # WELCOME MESSAGE
-welcome_message="Selamat menggunakan %s!\nVersi %s\nDibuat oleh %s\n\nKetik ':h {nama}'<Enter> untuk menyelenggarakan obrolan\nKetik ':c {ip} {nama}' <Enter> untuk mengobrol\nAkhiri obrolan dengan mengetik ':e'
+welcome_message="Selamat menggunakan %s!\nVersi %s\nDibuat oleh %s\n\nKetik ':h {nama}'<Enter> untuk menyelenggarakan obrolan\nKetik ':c {ip} {nama}' <Enter> untuk mengobrol\nAkhiri obrolan dengan mengetik ':e'"
 
 # HOST WAITING_CLIENT
 hinf_waiting_client="Menunggu seseorang untuk masuk ke dalam obrolan..."
@@ -16,4 +16,3 @@ gerr_endchat="Yah! Obrolan telah berakhir."
 binf_istyping="%s sedang mengetik..."
 berr_chatend="%s telah meninggalkan percakapan."
 binf_sattch="%s mengirim lampiran.\nHanya buka atau unduh lampiran dari orang yang kamu percaya."
-
