@@ -45,6 +45,12 @@ language::language(const char* language_code)
     delete[] lines;
 }
 
+language::~language()
+{
+    lang.clear();
+    language_code.fill(0);
+}
+
 language& language::get_instance(const char* language_code)
 {
     static language instance_ { language_code };

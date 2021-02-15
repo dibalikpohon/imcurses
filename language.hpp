@@ -13,17 +13,19 @@ private:
     std::array<char, 3> language_code;
 
     language(const char*  language_code);
-
-public:
-    using key_result = std::string;
-    /* deleted functions */
+    ~language();
+public: // deleted functions 
+    
     language() = delete;
     language(language const& rhs) = delete;
     language& operator=(language const& rhs) = delete;
+public:
+    using key_result = std::string;
 
     static language& get_instance(const char* language_code = nullptr);
     const char* get_language_code();
     const key_result& operator[](const char* key);
+
 };
 
 #endif
