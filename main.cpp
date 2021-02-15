@@ -3,25 +3,24 @@
 
 #include "language.hpp"
 
-int choice(int min, int max);
 int prompt(const char* prompt_header, const char* the_prompt,
            const char* error_message,
            int min, int max, size_t choices_count, ...);
 
 int main()
 {
-/*    std::cout << "Pilih bahasa/Select language:";
-    std::cout << "\n1. Bahasa Indonesia/Indonesian";
-    std::cout << "\n2. Bahasa enggres/English";
-    std::cout << "\nPilihan Anda/Your choice: ";
-    int choice;
-    std::cin >> choice;*/
     int lang = prompt("Pilih bahasa/Select language:", "Pilihan Anda/Your choice: ",
                       "Mohon pilih dengan benar!/Please choose correctly!", 1, 2, 2,
                       "Bahasa Indonesia/Indonesian", "Bahasa Inggris/English");
-    language::get_instance("en");
-    language::get_instance("id");
-    std::cout << language::get_instance()["binf_istyping"];
+                      
+    switch (lang) {
+        case 1:
+            language::get_instance("in");
+        break;
+        case 2:
+            language::get_instance("en");
+        break;
+    }
 }
 
 int prompt(const char* prompt_header, const char* the_prompt,
