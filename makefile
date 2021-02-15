@@ -1,5 +1,5 @@
 COMPILER_CXX = g++
-APP_NAME = appname
+APP_NAME = vimcurses
 
 all: language main
 	$(COMPILER_CXX) -g language.o main.o -o $(APP_NAME).out
